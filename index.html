@@ -13,6 +13,12 @@
 </head>
 
 <body>
+  <header>
+    <ul>
+    <li><a href="#main" class="skip">Skip to main content</a></li>
+    <li><a href="#contact" class="skip">Skip to contact page</a></li>
+    </ul>
+  </header>
   <div class="container">
     <header role="banner">
       <h1 role="heading">Jam Box Studios</h1>
@@ -26,7 +32,7 @@
       </nav>
       <img src="https://placekitten.com/1200/900" class="banner" alt="cute kitten">
     </header>
-    <main role="main-content">
+    <main id="main" role="main-content">
       <h1 role="heading">Welcome to Jam Box</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
@@ -47,12 +53,12 @@
         </li>
         </ul>
       </div>
-      <div class="contact-section">
+      <div id="contact" class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
           <label for="name">Full Name</label>
           <input type="name" placeholder="Full Name" aria-placeholder="name" aria-label="name">
-          <label for="Email">Email</label>
+          <label for="email">Email</label>
           <input type="email" placeholder="Email" aria-placeholder="email" aria-label="email">
           <label for="subject">Subject</label>
           <input type="subject" placeholder="Subject" aria-placeholder="subject" aria-label="subject">
